@@ -3,6 +3,7 @@ import 'package:news_app/helper/api.dart';
 import 'package:news_app/models/top_news_model.dart';
 import 'package:news_app/utils/news_api.dart';
 
+// Mengelola state dan panggilan API untuk fungsionalitas berita
 class NewsProvider with ChangeNotifier {
   bool isDataEmpty = true;
   bool isLoading = true;
@@ -17,6 +18,8 @@ class NewsProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  // Mengambil berita teratas dalam kategori teknologi 
+  // Memperbarui [resNews] dengan data yang diambil
   getTopNews() async {
     final res = await api(
         '${baseURL}top-headlines?country=us&category=technology&apiKey=$apiKey');
@@ -30,6 +33,8 @@ class NewsProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  // Mencari berita berdasarkan query yang diberikan
+  // Memperbarui [resSearch] dengan hasil pencarian
   searchNews(String search) async {
     isDataEmpty = false;
     isLoadingSearch = true;
@@ -47,6 +52,8 @@ class NewsProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  // Mengambil berita terpopuler
+  // Memperbarui [resBNews] dengan data yang diambil
   getBreakingNews() async {
     final res = await api(
         '${baseURL}top-headlines?country=us&sortBy=popularity&apiKey=$apiKey');
@@ -60,6 +67,8 @@ class NewsProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  // Mengambil berita untuk kategori tertentu 
+  // Memperbarui [resCategory] dengan data yang diambil
   showNewsByCategory(String category) async {
     final res = await api(
         '${baseURL}top-headlines?country=us&category=$category&apiKey=$apiKey');

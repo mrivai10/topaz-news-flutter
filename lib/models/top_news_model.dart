@@ -1,3 +1,4 @@
+// Model untuk respons API
 class TopNewsModel {
   final String? status;
   final int? totalResults;
@@ -5,6 +6,7 @@ class TopNewsModel {
 
   TopNewsModel({this.status, this.totalResults, this.articles});
 
+  // Membuat instance TopNewsModel dari JSON
   factory TopNewsModel.fromJson(Map<String, dynamic> json) {
     return TopNewsModel(
       status: json['status'],
@@ -15,6 +17,7 @@ class TopNewsModel {
     );
   }
 
+  // Mengonversi TopNewsModel ke JSON
   Map<String, dynamic> toJson() => {
         'status': status,
         'totalResults': totalResults,
