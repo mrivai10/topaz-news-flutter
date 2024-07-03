@@ -1,16 +1,27 @@
-# news_app
+# Aplikasi Berita dengan Integrasi NewsAPI berbasis Mobile "TopazNews"
 
-A new Flutter project.
+Perancangan aplikasi berita berbasis mobile menggunakan News API untuk menyajikan berita real-time. Tujuannya adalah menciptakan platform yang dapat memenuhi kebutuhan pengguna akan akses berita cepat dan akurat. 
 
-## Getting Started
+## Fitur Aplikasi
+- Melihat berita terbaru (Breaking News)
+- Melihat berita terpopuler (Trending)
+- Melihat berita sesuai kategori
+- Mencari berita berdasarkan kata kunci
 
-This project is a starting point for a Flutter application.
+## NewsAPI
+https://newsapi.org/
 
-A few resources to get you started if this is your first Flutter project:
+## Kebutuhan Dependencies
+- SDK: >=3.3.1 <4.0.0
+- cupertino_icons: ^1.0.6
+- provider: ^6.1.2
+- dio: ^5.4.3+1
+- fancy_shimmer_image: ^2.0.3
+- carousel_slider: ^4.2.1
+- smooth_page_indicator: ^1.1.0
+- webview_flutter: ^3.0.1
+- intl: ^0.19.0
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tampilan Aplikasi
+![Alt text](path/to/image)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
