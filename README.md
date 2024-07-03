@@ -1,4 +1,5 @@
 # Aplikasi Berita dengan Integrasi NewsAPI berbasis Mobile "TopazNews"
+#### Projek Mata Kuliah Pemrograman Perangkat Mobile
 
 Perancangan aplikasi berita berbasis mobile menggunakan News API untuk menyajikan berita real-time. Tujuannya adalah menciptakan platform yang dapat memenuhi kebutuhan pengguna akan akses berita cepat dan akurat. 
 
