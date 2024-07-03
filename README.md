@@ -23,5 +23,9 @@ https://newsapi.org/
 - intl: ^0.19.0
 
 ## Tampilan Aplikasi
-![Alt text](path/to/image)
+<p>
+  <img src="images/landing_page.jpg" alt="Image 1" height="400">
+  <img src="images/home_page.jpg" alt="Image 2" height="400">
+</p>
+
 
