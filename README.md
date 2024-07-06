@@ -13,6 +13,7 @@ Perancangan aplikasi berita berbasis mobile dengan integrasi News API untuk meny
 https://newsapi.org/
 
 ## Kebutuhan Dependencies
+- Flutter: 3.19.3
 - SDK: >=3.3.1 <4.0.0
 - cupertino_icons: ^1.0.6
 - provider: ^6.1.2
