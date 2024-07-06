@@ -1,4 +1,4 @@
-# Aplikasi Berita dengan Integrasi NewsAPI berbasis Mobile menggunakan Flutter"TopazNews"
+# Aplikasi Berita dengan Integrasi NewsAPI berbasis Mobile menggunakan Flutter "TopazNews"
 #### Projek Mata Kuliah Pemrograman Perangkat Mobile
 
 Perancangan aplikasi berita berbasis mobile dengan integrasi News API untuk menyajikan berita real-time menggunakan Flutter. Tujuannya adalah menciptakan platform yang dapat memenuhi kebutuhan pengguna akan akses berita cepat dan akurat. 
