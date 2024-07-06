@@ -15,14 +15,14 @@ https://newsapi.org/
 ## Kebutuhan Dependencies
 - Flutter: 3.19.3
 - SDK: >=3.3.1 <4.0.0
-- cupertino_icons: ^1.0.6
-- provider: ^6.1.2
-- dio: ^5.4.3+1
-- fancy_shimmer_image: ^2.0.3
-- carousel_slider: ^4.2.1
-- smooth_page_indicator: ^1.1.0
-- webview_flutter: ^3.0.1
-- intl: ^0.19.0
+- cupertino_icons: 1.0.6
+- provider: 6.1.2
+- dio: 5.4.3+1
+- fancy_shimmer_image: 2.0.3
+- carousel_slider: 4.2.1
+- smooth_page_indicator: 1.1.0
+- webview_flutter: 3.0.1
+- intl: 0.19.0
 
 ## Tampilan Aplikasi
 <p>
